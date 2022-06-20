@@ -1,0 +1,22 @@
+{
+  "name": "curso-api-rest-javascript-practico",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Práctico de API REST con JavaScript de Platzi",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JugosGastricos/curso-api-rest-javascript-practico.git"
+  },
+  "keywords": [
+    "themovidedb"
+  ],
+  "author": "@JugosGastricos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JugosGastricos/curso-api-rest-javascript-practico/issues"
+  },
+  "homepage": "https://github.com/JugosGastricos/curso-api-rest-javascript-practico#readme"
+}
