@@ -5,7 +5,7 @@ const api = axios.create({
         'Content-Type': 'application/json;charset=utf-8',
     },
     params: {
-        'api_key':'cdedb459ae6988c5c8f65b9364f7d607',
+        'api_key':API_KEY,
     },
 });
 
@@ -47,7 +47,7 @@ const getTrendingMoviesPreview = async () => {
 
 const getMovieGenresList = async () => {
     try {
-        const res = await fetch(API_URL+MOVIE_GENRES+API_KEY);
+        const res = await fetch(API_URL+MOVIE_GENRES+'?api_key='+API_KEY);
         const data = await res.json();
         if (res.status !== 200) {
             console.log(`Error: status code${res.status} Details:${data.message}`) 
