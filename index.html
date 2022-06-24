@@ -16,11 +16,11 @@
   <header id="header" class="header-container">
     <span class="header-arrow inactive">&lt;</span>
     <h1 class="header-title">PlatziMovies</h1>
-    <h1 class="header-title header-title--categoryView inactive">Acción</h1>
+    <h1 class="header-title header-title--categoryView">Acción</h1>
 
     <form id="searchForm" class="header-searchForm">
-      <input type="text" placeholder="Vengadores" />
-      <button>🔍</button>
+      <input type="text" required placeholder="Vengadores" />
+      <button type="button" id="searchBtn">🔍</button>
     </form>
     
     <section id="categoriesPreview" class="categoriesPreview-container">
@@ -52,7 +52,7 @@
 
 
   <section id="genericList" class="genericList-container inactive">
-    <div class="movie-container">
+    <!-- <div class="movie-container">
       <img
         src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img" alt="Nombre de la película" />
     </div>
@@ -65,7 +65,7 @@
     <div class="movie-container">
       <img
         src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img" alt="Nombre de la película" />
-    </div>
+    </div> -->
 
   </section>
 
@@ -76,8 +76,8 @@
       Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.
     </p>
 
-    <article class="categories-list">
-      <div class="category-container">
+    <article class="categories-list category-title--movieDetail">
+      <!-- <div class="category-container">
         <h3 id="id28" class="category-title">Romance</h3>
       </div>
 
@@ -87,15 +87,18 @@
 
       <div class="category-container">
         <h3 id="id14" class="category-title">Acción</h3>
-      </div>
-      
+      </div> -->
+
     </article>
 
+    <p id="movieDetails" class="movieDetail-description">
+    </p>
+    
     <article class="relatedMovies-container">
       <h2 class="relatedMovies-title">Películas similares</h2>
 
       <div class="relatedMovies-scrollContainer">
-        <div class="movie-container">
+        <!-- <div class="movie-container">
           <img
             src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img" alt="Nombre de la película" />
         </div>
@@ -107,7 +110,7 @@
         
         <div class="movie-container">
           <img
-            src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img" alt="Nombre de la película" />
+            src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img" alt="Nombre de la película" /> -->
         </div>
         
       </div>
@@ -118,5 +121,7 @@
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="./src/main.js"></script>
+    <script src="./src/nodes.js"></script>
+    <script type="module" src="./src/navigation.js"></script>
 </body>
 </html>
