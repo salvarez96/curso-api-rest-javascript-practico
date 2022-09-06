@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JugosGastricos/curso-api-rest-javascript-practico.git"
+    "url": "git+https://github.com/salvarez96/curso-api-rest-javascript-practico.git"
   },
   "keywords": [
     "themovidedb"
   ],
-  "author": "@JugosGastricos",
+  "author": "@salvarez96",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JugosGastricos/curso-api-rest-javascript-practico/issues"
+    "url": "https://github.com/salvarez96/curso-api-rest-javascript-practico/issues"
   },
-  "homepage": "https://github.com/JugosGastricos/curso-api-rest-javascript-practico#readme"
+  "homepage": "https://github.com/salvarez96/curso-api-rest-javascript-practico#readme"
 }
